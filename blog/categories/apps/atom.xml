@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: osx, | Simple]]></title>
-  <link href="http://dragoncz.github.com/blog/categories/osx-/atom.xml" rel="self"/>
+  <title><![CDATA[Category: apps | Simple]]></title>
+  <link href="http://dragoncz.github.com/blog/categories/apps/atom.xml" rel="self"/>
   <link href="http://dragoncz.github.com/"/>
-  <updated>2012-04-11T12:12:37+01:00</updated>
+  <updated>2012-04-11T16:41:51+01:00</updated>
   <id>http://dragoncz.github.com/</id>
   <author>
     <name><![CDATA[Zhen Cao]]></name>
