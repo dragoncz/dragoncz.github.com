@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Simple]]></title>
+  <link href="http://dragoncz.github.com/atom.xml" rel="self"/>
+  <link href="http://dragoncz.github.com/"/>
+  <updated>2012-04-11T02:12:09+01:00</updated>
+  <id>http://dragoncz.github.com/</id>
+  <author>
+    <name><![CDATA[Zhen Cao]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[这是我的新博客]]></title>
+    <link href="http://dragoncz.github.com/blog/2012/04/10/zhe-shi-wo-de-xin-bo-ke/"/>
+    <updated>2012-04-10T20:10:00+01:00</updated>
+    <id>http://dragoncz.github.com/blog/2012/04/10/zhe-shi-wo-de-xin-bo-ke</id>
+    <content type="html"><![CDATA[<p>终于搞定了 <a href="http://octopress.org" title="Octopress">Octopress</a> 和 <a href="http://github.com" title="github">Github</a>.</p>
+
+<p>学到了很多东西，包括：</p>
+
+<ul>
+<li><p><a href="http://www.ruby-lang.org/en/" title="Ruby">Ruby</a></p>
+
+<p>在 Mac OS X 下架设 <a href="http://rubyonrails.org/" title="Ruby on Rails">Ruby on Rails</a> 环境，目前使用 <a href="http://beginrescueend.com/" title="RVM">RVM</a> 安装了 1.9.2 &amp; 1.9.3. <a href="http://octopress.org" title="Octopress">Octopress</a> 需要 1.9.2 不过貌似可以更改。</p></li>
+<li><p>Git</p>
+
+<p><a href="http://github.com" title="github">github</a> 是个牛X的东西，里面有无数资源，有方便到爆的版本控制。</p></li>
+<li><p><a href="http://en.wikipedia.org/wiki/Markdown" title="Wikipedia for Markdown">Markdown</a></p>
+
+<p>从现在开始，所有的博客都使用 <a href="http://en.wikipedia.org/wiki/Markdown" title="Wikipedia for Markdown">Markdown</a> 格式编写，编辑工具我用的是 <a href="http://www.sublimetext.com/2" title="Awesome editor for coders">Sublime Text 2</a> 编辑器</p></li>
+</ul>
+
+
+<p>现在我要多学学东西，多写写 Blog, 这些东西还是用的多了才能学会。</p>
+]]></content>
+  </entry>
+  
+</feed>
