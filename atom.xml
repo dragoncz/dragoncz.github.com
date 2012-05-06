@@ -4,7 +4,7 @@
   <title><![CDATA[Simple]]></title>
   <link href="http://dragoncz.github.com/atom.xml" rel="self"/>
   <link href="http://dragoncz.github.com/"/>
-  <updated>2012-05-06T18:29:26+01:00</updated>
+  <updated>2012-05-06T18:41:16+01:00</updated>
   <id>http://dragoncz.github.com/</id>
   <author>
     <name><![CDATA[Zhen Cao]]></name>
@@ -50,6 +50,9 @@
     <content type="html"><![CDATA[<p>最近一直在从头学习<code>HTML</code>, 大脑很久没这么长时间运转了. 今天先是看了N久代码, 然后 <strong>Happy</strong> 的去给水二看论文资料. 话说环境学真是抽象啊, 好多词看不懂不说, 他们老师的 PPT 真是跳跃性的, 上一页和下一页恍如隔世&#8230;</p>
 
 <h1>学到的东西</h1>
+
+<!-- more -->
+
 
 <ul>
 <li><h3><span id="Sustainable Consumption">Sustainable Consumption</span></h3>
