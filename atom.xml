@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Simple]]></title>
+  <link href="http://dragoncz.github.com/atom.xml" rel="self"/>
+  <link href="http://dragoncz.github.com/"/>
+  <updated>2012-05-08T03:20:04+01:00</updated>
+  <id>http://dragoncz.github.com/</id>
+  <author>
+    <name><![CDATA[Zhen Cao]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[nvALT]]></title>
+    <link href="http://dragoncz.github.com/blog/2012/05/06/nvalt/"/>
+    <updated>2012-05-06T18:53:00+01:00</updated>
+    <id>http://dragoncz.github.com/blog/2012/05/06/nvalt</id>
+    <content type="html"><![CDATA[<p><a href="http://brettterpstra.com/project/nvalt/" title="nvALT 官网">nvALT</a> 和 <a href="http://evernote.com/" title="Evernote 官网">Evernote</a> 类似，是笔记类软件，数字笔记的好处就是，代替了传统的笔记本和笔，同时也方便检索和管理。想想平时遇到这些时候：</p>
+
+<ul>
+<li>看一篇文章，激发了你的一些思考，但都是片段式的，很零散</li>
+<li>使用一些软件或者设备的时候，有了一些产品灵感，或者想法，这些宝贵的脑电波稍纵即逝</li>
+<li>看到一个好段子，想记录下来</li>
+</ul>
+
+
+<p>一键呼出你的 nvALT，键盘飞起吧。</p>
+
+<h1>Notational Velocity</h1>
+
+<p>&#8220;nvALT&#8221; 中的 &#8220;nv&#8221; 就是指 <a href="http://notational.net/" title="Notational Velocity Official Website">Notational Velocity</a>, 相比其他同类软件，它的精髓就是 <code>简单</code>，<code>键盘操作</code>，尤其相对于 Evernote 的复杂和臃肿。界面干净的除了关闭最小化什么的按钮外，一个多余的按钮都没有。如果你也像我一样喜欢键盘的高效率和简单高效的界面的话，那这个就是为你设计的笔记软件。当然，一台 Mac 是必须的：）</p>
+
+<h2>nvALT</h2>
+
+<p><a href="http://brettterpstra.com/project/nvalt/" title="Brett Terpstra">nvALT</a> 是 <a href="http://elasticthreads.tumblr.com/">Elastic Threads</a> (David Halter) 和 <a href="http://brettterpstra.com/">Brett Terpstra</a> 开发的 Notational Velocity 的一个 Fork，增加了很多功能，最吸引人的就是支持 <a href="http://daringfireball.net/projects/markdown/" title="markdown Official Website">markdown</a>，由于现在我基本所有的文字编辑都采用 markdown 格式了，把笔记也统一感觉很协调，另外也方便直接复制粘帖不是：）</p>
+
+<!-- more -->
+
+
+<h1>界面</h1>
+
+<p><img src="http://f.cl.ly/items/0U0h362p3q3s3W34070T/Screen%20Shot%202012-05-06%20at%2018.51.58.png" title="nvALT UI" alt="nvALT UI" /></p>
+
+<h1>使用</h1>
+
+<h2>添加，编辑笔记</h2>
+
+<p><img src="http://notational.net/images/notational-diagram.png" title="使用流程" alt="使用流程" /></p>
+
+<p>使用起来及其简单，搜索框类似 Chrome 的地址栏，如果根据你输入的可以找到已有条目，那么就编辑已有条目；如果没找到匹配的，那么就按照当前关键词新建一个条目。就这么简单。当然，这个搜索框是全局搜索的，你条目里面的内容也会被检索。
+nvALT 的每个笔记都支持 Tag，方便管理。</p>
+
+<h2>保存和备份</h2>
+
+<p>nvALT 默认采用单个数据库文件来保存笔记的，还提供单独文本文件，HTML 格式文件等的选项。需要注意的是，只有在默认采用数据库文件存储的时候，笔记才是被加密的，否则都是明文存储。但是单个文件存储也有它自己的优点，下面会提到。
+编辑的时候不需要手动保存，它是实时自动保存的，永远不用担心丢失数据。另外它的设置和笔记保存路径可以更改，我们可以把它放在 Dropbox 上，实时备份。方法就是：</p>
+
+<pre><code>"Cmd + ," 打开设置 -&gt; 'Notes' 标签 -&gt; 'Read notes from folder:' 选择你的 Dropbox 文件夹
+</code></pre>
+
+<h2>Simplenote</h2>
+
+<p>nvALT 支持和 <a href="http://simplenoteapp.com/" title="Simplenote Official Website">Simplenote</a> 服务同步，而 Simplenote 拥有网页客户端，Windows 客户端和 iOS 客户端，你可以在它的 <a href="http://simplenoteapp.com/downloads/" title="simplenote apps">download页面</a> 上看到，它还有各种 nvALT 之外的软件，插件支持，所以可以在所有设备上访问到你的笔记，只要有网。Simplenote 有免费和收费两种，一般免费的就够用了，收费的只是去掉广告和很少的功能增强，可是要按年付费，虽然不贵，但是不划算。</p>
+
+<h1>技巧</h1>
+
+<ul>
+<li><code>Shift + Cmd + E</code> 可以打开外部文本编辑器编辑当前目录，这样你就可以使用自己喜爱的 markdown 编辑器编辑你的笔记了，比如 <a href="sublimetext.com/2" title="Sublime Text 2">Sublime Text 2</a> (跨平台) 和 <a href="http://mouapp.com/" title="mouapp">Mou</a> (Mac)
+注意，这个只有在设置成保存单独文本文件的时候才可以设置，否则只能使用系统自带的 TextEdit 打开。</li>
+<li><code>Ctrl + Cmd + P</code> 可以打开 markdown 预览。</li>
+<li>可以设置全局热键来一键呼出 nvALT</li>
+<li>在设置为按单个文本文件保存笔记的时候，可以用 Spotlight 或者 Alfred 之类的程序搜索到笔记，换句话说，和系统有更好的整合度。</li>
+</ul>
+
+
+<p>想法和点子不知什么时候就忽然闪现，如果不记录下来，它也会很快被忘记，所以，找到一个合适的笔记软件，养成一个记录的习惯，积累下来，肯定是个财富。</p>
+
+<p><a href="http://abyss.designheresy.com/nvaltb/files/nvalt2.2b94.zip" title="nvALT 2.2b94">下载 nvALT 2.2 beta</a></p>
+
+<p><a href="http://brettterpstra.com/project/nvalt/" title="Brett Terpstra">nvALT 作者网站</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Web and Layers]]></title>
+    <link href="http://dragoncz.github.com/blog/2012/05/06/web-and-layers/"/>
+    <updated>2012-05-06T17:58:00+01:00</updated>
+    <id>http://dragoncz.github.com/blog/2012/05/06/web-and-layers</id>
+    <content type="html"><![CDATA[<p>最近看到几篇文章，<a href="http://www.36kr.com/p/106076.html" title="Facebook 的开放世界">一篇提到</a> Facebook 正“试图成为所有应用的社交层，就像 Google 试图成为 Google 所有产品的社交层一样”。还有一篇提到，<a href="http://www.technologyreview.com/web/39653/" title="Dropbox: Founder Drew Houston Simplifies the Cloud">Dropbox 老大说</a>，Dropbox 不是一个简单的网盘，它的最终目标应该是成为“互联网的文件系统”，换句话说，Dropbox 想成为所有互联网应用的 <code>存储层</code>。</p>
+
+<blockquote><p>&#8220;Over the next years you&#8217;re going to see that the value that comes out of Dropbox is more and more the stuff that other people build. Whether it&#8217;s your TV or your camera or the apps on your phone, we want to make it easy for anything that consumes or creates data to be able to plug in. What we&#8217;re really trying to build is the Internet&#8217;s file system.&#8221; <a href="http://www.technologyreview.com/web/39653/" title="Dropbox: Founder Drew Houston Simplifies the Cloud">Drew Houston</a></p></blockquote>
+
+<!-- more -->
+
+
+<p>我不禁想，以后的互联网应用或者说服务真的可以层次化，就像层次化的互联网七层协议，模块化的编程语言，正如这些复杂工程背后的哲学一样，互联网本身也可以模块化，层次化。</p>
+
+<p>能够想到的几点好处：</p>
+
+<ul>
+<li>当开发应用的时候，你可以专注与你要提供的那部分功能，当你想提供社交功能和读存数据的时候，可以用社交层和存储层提供的功能。</li>
+<li>那么你开发的这个应用可能就算做 <code>应用层</code>，就像网络协议的 Internet 服务，Email 服务归属于应用层一样。</li>
+<li>每一层都有自己的功能和责任，可以和上层，下层交互。</li>
+<li>每一层都可以释放一些不必要的顾虑，不必花费经历去研究其他层功能的细节，直接使用规范化的接口，比如 <code>API</code>。</li>
+<li>互联网应用的开发效率带来提高</li>
+</ul>
+
+
+<p>其实想起来，这也算是各种 API 的进化概念，如果有一个整体的框架，或者说体系来约束互联网应用，肯定可以带来好处，说不定还能解决让人苦恼的客户需求问题。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[跨专业学习]]></title>
+    <link href="http://dragoncz.github.com/blog/2012/04/18/kua-zhuan-ye-xue-xi/"/>
+    <updated>2012-04-18T02:03:00+01:00</updated>
+    <id>http://dragoncz.github.com/blog/2012/04/18/kua-zhuan-ye-xue-xi</id>
+    <content type="html"><![CDATA[<p>最近一直在从头学习<code>HTML</code>, 大脑很久没这么长时间运转了. 今天先是看了N久代码, 然后 <strong>Happy</strong> 的去给水二看论文资料. 话说环境学真是抽象啊, 好多词看不懂不说, 他们老师的 PPT 真是跳跃性的, 上一页和下一页恍如隔世&#8230;</p>
+
+<!-- more -->
+
+
+<h1>学到的东西</h1>
+
+<ul>
+<li><h3><span id="Sustainable Consumption">Sustainable Consumption</span></h3>
+
+<blockquote><p>&#8220;the use of services and related products which respond to basic needs and bring a better quality of life while minimizing the use of natural resources and toxic materials as well as emissions of waste and pollutants over the life cycle of the service or product so as not to jeopardize the needs of future generations.&#8221; (via <a href="http://en.wikipedia.org/wiki/Sustainable_consumption#The_Oslo_Definition" title="Wikipedia">Wiki</a>)</p></blockquote>
+
+<p>个人理解: 就是节省资源的同时又可以保持(甚至提高)生活质量, 另外还有一个比较片面但是通俗的解释, 就是要理性消费, 低碳环保. 这是我这个外行人的理解.</p></li>
+<li><h3>Science and Technology Studies (STS)</h3>
+
+<blockquote><p>&#8220;STS is the study of how social, political, and cultural values affect scientific research and technological innovation, and how these, in turn, affect society, politics and culture. STS scholars are interested in a variety of problems including the relationships between scientific and technological innovations and society, and the directions and risks of science and technology&#8221; (via <a href="http://en.wikipedia.org/wiki/Sustainable_consumption#The_Oslo_Definition" title="Wikipedia">Wiki</a>)</p></blockquote>
+
+<p>个人理解: 应该是把科技和人结合在一起, 使我们的生活更美妙的同时, 促成人们改变一些生活习惯. 具体到 <a href="#Sustainable Consumption"><code>Sustainable Consumption</code></a> 领域, 那就是科技产品在让人们使用后, 可以潜移默化的让人们的生活更环保. 比如无纸化办公, 电子书.</p></li>
+</ul>
+
+
+<p>好了, 太困了, 睡觉了.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[GitHub for Mac and SSH keys]]></title>
+    <link href="http://dragoncz.github.com/blog/2012/04/12/github-for-mac-and-ssh-keys/"/>
+    <updated>2012-04-12T03:13:00+01:00</updated>
+    <id>http://dragoncz.github.com/blog/2012/04/12/github-for-mac-and-ssh-keys</id>
+    <content type="html"><![CDATA[<p>折腾 Octopress 的时候安装了 Git, 之前还安装过 GitHub for Mac, 然后创建 SSH Keys 的时候就发现 <code>~/.ssh/</code>目录下面有</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Zhens-MacBook-Pro:~ caozhen$ ls ~/.ssh/
+</span><span class='line'>github_rsa                id_rsa
+</span><span class='line'>github_rsa.pub            id_rsa.pub
+</span><span class='line'>github_rsa.pub_bak-github known_hosts
+</span><span class='line'>github_rsa_bak-github</span></code></pre></td></tr></table></div></figure>
+
+
+<p><a href="http://help.github.com/mac-set-up-git/" title="Help.GitHub - Set Up Git">Github Help</a> 上面的指导文章让生成使用的是 <code>id_rsa</code> 和 <code>id_rsa.pub</code> 这个 key pair, 那么 <code>github_rsa</code> 和 <code>github_rsa.pub</code> 是做什么的?</p>
+
+<!-- more -->
+
+
+<p>
+经过猜测和 Google 大神的指引, 确定是 GitHub for Mac 傻瓜化的为用户创建的. 话说干嘛不创建个名称一致的&#8230; 那么我连接 GitHub 的时候到底是用的哪一个 key pair 呢? 可以用下列命令确定:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ ssh -vT git@github.com</span></code></pre></td></tr></table></div></figure>
+
+
+<p>在输出里面找到类似</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>...
+</span><span class='line'>debug1: Offering RSA public key: /Users/caozhen/.ssh/github_rsa
+</span><span class='line'>...</span></code></pre></td></tr></table></div></figure>
+
+
+<p>说明现在使用的是 <code>github_rsa</code> 这个 key.</p>
+
+<h1>问题解决</h1>
+
+<p>现在根据 stackoverflow 上的<a href="http://stackoverflow.com/questions/7968656/why-is-a-cap-deploy-giving-permission-denied-publickey" title="stackoverflow">这篇文章</a>切换到默认的 <code>id_rsa</code>:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ ssh-add -D</span></code></pre></td></tr></table></div></figure>
+
+
+<p>这个命令的作用是清除 <code>ssh-agent</code> 的缓存, 这样就不会优先使用 <code>github_rsa</code> 了.</p>
+
+<h1>后记</h1>
+
+<p>写完博客才想到, 如果一直默认使用 <code>github_rsa</code> 这个 key 的话, 其它 ssh 服务也会出现问题, 因为我的 VPS 也是使用的 <code>id_rsa</code> 这个 key.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Scroll Reverser]]></title>
+    <link href="http://dragoncz.github.com/blog/2012/04/11/scroll-reverser/"/>
+    <updated>2012-04-11T11:40:00+01:00</updated>
+    <id>http://dragoncz.github.com/blog/2012/04/11/scroll-reverser</id>
+    <content type="html"><![CDATA[<p>OS X Lion 里最大的改动之一就是触摸板的滚动方向了，经过一段时间的适应，其实还是很符合触摸习惯，尤其是使用过各种 iDevice 之后。可是触摸板有时候还是代替不了鼠标，当我们必须用鼠标的时候，滚轮的反方向滚动会让你抓狂的。当然，通过一些设置，可以把新的滚动方式关掉，可是用回触摸板的时候又很不适应。</p>
+
+<h1>目标</h1>
+
+<ol>
+<li>使用触摸板的时候应用新的滚动方式</li>
+<li>使用鼠标的时候实用旧滚动方式</li>
+<li>鼠标和触摸板和平共处</li>
+</ol>
+
+
+<!-- more -->
+
+
+<h1>软件</h1>
+
+<p><img src="http://cdn.downloads.pilotmoon.com/site/sr1_4shot.png" title="Scroll Reverser" alt="Scroll Reverser" /></p>
+
+<p><a href="http://pilotmoon.com/scrollreverser/" title="点击访问主页"><strong>Scroll Reverser</strong></a>
+<a href="http://cdn.downloads.pilotmoon.com/ScrollReverser-1.5.1.zip" title="点击直接下载"><strong>[下载]</strong></a></p>
+
+<blockquote><p>On OS X Lion, use it to customise scrolling behaviour beyond what is possible in system preferences, for example to reverse the mouse but not the trackpad.</p></blockquote>
+
+<h1>步骤</h1>
+
+<ol>
+<li>先在<code>系统偏好</code>里打开新式滚动<br/>
+<img src="http://f.cl.ly/items/2u1i16110f0X2z1b3I1x/Screen%20Shot%202012-04-11%20at%2009.48.42.png" title="System Preference" alt="System Preference" /></li>
+<li>在<code>Scroll Reverser</code>的<code>Preferences</code>里去掉
+
+<ul>
+<li>Reverse Horizontal</li>
+<li>Reverse Trackpad</li>
+<li>Reverse Tablet</li>
+</ul>
+</li>
+</ol>
+
+
+<p><strong>完成!!</strong></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[这是我的新博客]]></title>
+    <link href="http://dragoncz.github.com/blog/2012/04/10/zhe-shi-wo-de-xin-bo-ke/"/>
+    <updated>2012-04-10T20:10:00+01:00</updated>
+    <id>http://dragoncz.github.com/blog/2012/04/10/zhe-shi-wo-de-xin-bo-ke</id>
+    <content type="html"><![CDATA[<p>终于搞定了 <a href="http://octopress.org" title="Octopress">Octopress</a> 和 <a href="http://github.com" title="github">Github</a>.</p>
+
+<p>学到了很多东西，包括：</p>
+
+<ul>
+<li><p><a href="http://www.ruby-lang.org/en/" title="Ruby">Ruby</a></p>
+
+<p>在 Mac OS X 下架设 <a href="http://rubyonrails.org/" title="Ruby on Rails">Ruby on Rails</a> 环境，目前使用 <a href="http://beginrescueend.com/" title="RVM">RVM</a> 安装了 1.9.2 &amp; 1.9.3. <a href="http://octopress.org" title="Octopress">Octopress</a> 需要 1.9.2 不过貌似可以更改。</p></li>
+<li><p>Git</p>
+
+<p><a href="http://github.com" title="github">github</a> 是个牛X的东西，里面有无数资源，有方便到爆的版本控制。</p></li>
+<li><p><a href="http://en.wikipedia.org/wiki/Markdown" title="Wikipedia for Markdown">Markdown</a></p>
+
+<p>从现在开始，所有的博客都使用 <a href="http://en.wikipedia.org/wiki/Markdown" title="Wikipedia for Markdown">Markdown</a> 格式编写，编辑工具我用的是 <a href="http://www.sublimetext.com/2" title="Awesome editor for coders">Sublime Text 2</a> 编辑器</p></li>
+</ul>
+
+
+<p>现在我要多学学东西，多写写 Blog, 这些东西还是用的多了才能学会。</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: fix | Simple]]></title>
+  <link href="http://dragoncz.github.com/blog/categories/fix/atom.xml" rel="self"/>
+  <link href="http://dragoncz.github.com/"/>
+  <updated>2012-05-08T03:20:04+01:00</updated>
+  <id>http://dragoncz.github.com/</id>
+  <author>
+    <name><![CDATA[Zhen Cao]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[GitHub for Mac and SSH keys]]></title>
+    <link href="http://dragoncz.github.com/blog/2012/04/12/github-for-mac-and-ssh-keys/"/>
+    <updated>2012-04-12T03:13:00+01:00</updated>
+    <id>http://dragoncz.github.com/blog/2012/04/12/github-for-mac-and-ssh-keys</id>
+    <content type="html"><![CDATA[<p>折腾 Octopress 的时候安装了 Git, 之前还安装过 GitHub for Mac, 然后创建 SSH Keys 的时候就发现 <code>~/.ssh/</code>目录下面有
+<code>
+Zhens-MacBook-Pro:~ caozhen$ ls ~/.ssh/
+github_rsa              id_rsa
+github_rsa.pub          id_rsa.pub
+github_rsa.pub_bak-github   known_hosts
+github_rsa_bak-github
+</code>
+<a href="http://help.github.com/mac-set-up-git/" title="Help.GitHub - Set Up Git">Github Help</a> 上面的指导文章让生成使用的是 <code>id_rsa</code> 和 <code>id_rsa.pub</code> 这个 key pair, 那么 <code>github_rsa</code> 和 <code>github_rsa.pub</code> 是做什么的?</p>
+
+<!-- more -->
+
+
+<p>
+经过猜测和 Google 大神的指引, 确定是 GitHub for Mac 傻瓜化的为用户创建的. 话说干嘛不创建个名称一致的... 那么我连接 GitHub 的时候到底是用的哪一个 key pair 呢? 可以用下列命令确定:
+<code>
+$ ssh -vT git@github.com
+</code>
+在输出里面找到类似
+<code>
+...
+debug1: Offering RSA public key: /Users/caozhen/.ssh/github_rsa
+...
+</code>
+说明现在使用的是 <code>github_rsa</code> 这个 key.</p>
+
+<h1>问题解决</h1>
+
+<p>现在根据 stackoverflow 上的<a href="http://stackoverflow.com/questions/7968656/why-is-a-cap-deploy-giving-permission-denied-publickey" title="stackoverflow">这篇文章</a>切换到默认的 <code>id_rsa</code>:
+<code>
+$ ssh-add -D
+</code>
+这个命令的作用是清除 <code>ssh-agent</code> 的缓存, 这样就不会优先使用 <code>github_rsa</code> 了.</p>
+
+<h1>后记</h1>
+
+<p>写完博客才想到, 如果一直默认使用 <code>github_rsa</code> 这个 key 的话, 其它 ssh 服务也会出现问题, 因为我的 VPS 也是使用的 <code>id_rsa</code> 这个 key.</p>
+]]></content>
+  </entry>
+  
+</feed>

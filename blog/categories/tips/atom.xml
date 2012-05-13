@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: tips | Simple]]></title>
+  <link href="http://dragoncz.github.com/blog/categories/tips/atom.xml" rel="self"/>
+  <link href="http://dragoncz.github.com/"/>
+  <updated>2012-05-08T03:20:04+01:00</updated>
+  <id>http://dragoncz.github.com/</id>
+  <author>
+    <name><![CDATA[Zhen Cao]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Scroll Reverser]]></title>
+    <link href="http://dragoncz.github.com/blog/2012/04/11/scroll-reverser/"/>
+    <updated>2012-04-11T11:40:00+01:00</updated>
+    <id>http://dragoncz.github.com/blog/2012/04/11/scroll-reverser</id>
+    <content type="html"><![CDATA[<p>OS X Lion 里最大的改动之一就是触摸板的滚动方向了，经过一段时间的适应，其实还是很符合触摸习惯，尤其是使用过各种 iDevice 之后。可是触摸板有时候还是代替不了鼠标，当我们必须用鼠标的时候，滚轮的反方向滚动会让你抓狂的。当然，通过一些设置，可以把新的滚动方式关掉，可是用回触摸板的时候又很不适应。</p>
+
+<h1>目标</h1>
+
+<ol>
+<li>使用触摸板的时候应用新的滚动方式</li>
+<li>使用鼠标的时候实用旧滚动方式</li>
+<li>鼠标和触摸板和平共处</li>
+</ol>
+
+
+<!-- more -->
+
+
+<h1>软件</h1>
+
+<p><img src="http://cdn.downloads.pilotmoon.com/site/sr1_4shot.png" title="Scroll Reverser" alt="Scroll Reverser" /></p>
+
+<p><a href="http://pilotmoon.com/scrollreverser/" title="点击访问主页"><strong>Scroll Reverser</strong></a>
+<a href="http://cdn.downloads.pilotmoon.com/ScrollReverser-1.5.1.zip" title="点击直接下载"><strong>[下载]</strong></a></p>
+
+<blockquote><p>On OS X Lion, use it to customise scrolling behaviour beyond what is possible in system preferences, for example to reverse the mouse but not the trackpad.</p></blockquote>
+
+<h1>步骤</h1>
+
+<ol>
+<li>先在<code>系统偏好</code>里打开新式滚动<br/>
+<img src="http://f.cl.ly/items/2u1i16110f0X2z1b3I1x/Screen%20Shot%202012-04-11%20at%2009.48.42.png" title="System Preference" alt="System Preference" /></li>
+<li>在<code>Scroll Reverser</code>的<code>Preferences</code>里去掉
+
+<ul>
+<li>Reverse Horizontal</li>
+<li>Reverse Trackpad</li>
+<li>Reverse Tablet</li>
+</ul>
+</li>
+</ol>
+
+
+<p><strong>完成!!</strong></p>
+]]></content>
+  </entry>
+  
+</feed>
