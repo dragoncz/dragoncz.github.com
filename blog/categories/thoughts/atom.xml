@@ -4,7 +4,7 @@
   <title><![CDATA[Category: thoughts | Simple]]></title>
   <link href="http://dragoncz.github.com/blog/categories/thoughts/atom.xml" rel="self"/>
   <link href="http://dragoncz.github.com/"/>
-  <updated>2012-05-08T03:20:04+01:00</updated>
+  <updated>2012-11-14T16:16:12+08:00</updated>
   <id>http://dragoncz.github.com/</id>
   <author>
     <name><![CDATA[Zhen Cao]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Web and Layers]]></title>
     <link href="http://dragoncz.github.com/blog/2012/05/06/web-and-layers/"/>
-    <updated>2012-05-06T17:58:00+01:00</updated>
+    <updated>2012-05-06T17:58:00+08:00</updated>
     <id>http://dragoncz.github.com/blog/2012/05/06/web-and-layers</id>
     <content type="html"><![CDATA[<p>最近看到几篇文章，<a href="http://www.36kr.com/p/106076.html" title="Facebook 的开放世界">一篇提到</a> Facebook 正“试图成为所有应用的社交层，就像 Google 试图成为 Google 所有产品的社交层一样”。还有一篇提到，<a href="http://www.technologyreview.com/web/39653/" title="Dropbox: Founder Drew Houston Simplifies the Cloud">Dropbox 老大说</a>，Dropbox 不是一个简单的网盘，它的最终目标应该是成为“互联网的文件系统”，换句话说，Dropbox 想成为所有互联网应用的 <code>存储层</code>。</p>
 

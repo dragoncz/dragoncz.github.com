@@ -4,7 +4,7 @@
   <title><![CDATA[Category: octopress | Simple]]></title>
   <link href="http://dragoncz.github.com/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://dragoncz.github.com/"/>
-  <updated>2012-05-08T03:20:04+01:00</updated>
+  <updated>2012-11-14T16:16:12+08:00</updated>
   <id>http://dragoncz.github.com/</id>
   <author>
     <name><![CDATA[Zhen Cao]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[这是我的新博客]]></title>
     <link href="http://dragoncz.github.com/blog/2012/04/10/zhe-shi-wo-de-xin-bo-ke/"/>
-    <updated>2012-04-10T20:10:00+01:00</updated>
+    <updated>2012-04-10T20:10:00+08:00</updated>
     <id>http://dragoncz.github.com/blog/2012/04/10/zhe-shi-wo-de-xin-bo-ke</id>
     <content type="html"><![CDATA[<p>终于搞定了 <a href="http://octopress.org" title="Octopress">Octopress</a> 和 <a href="http://github.com" title="github">Github</a>.</p>
 

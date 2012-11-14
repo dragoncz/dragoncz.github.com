@@ -4,7 +4,7 @@
   <title><![CDATA[Category: fix | Simple]]></title>
   <link href="http://dragoncz.github.com/blog/categories/fix/atom.xml" rel="self"/>
   <link href="http://dragoncz.github.com/"/>
-  <updated>2012-05-08T03:20:04+01:00</updated>
+  <updated>2012-11-14T16:16:12+08:00</updated>
   <id>http://dragoncz.github.com/</id>
   <author>
     <name><![CDATA[Zhen Cao]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[GitHub for Mac and SSH keys]]></title>
     <link href="http://dragoncz.github.com/blog/2012/04/12/github-for-mac-and-ssh-keys/"/>
-    <updated>2012-04-12T03:13:00+01:00</updated>
+    <updated>2012-04-12T03:13:00+08:00</updated>
     <id>http://dragoncz.github.com/blog/2012/04/12/github-for-mac-and-ssh-keys</id>
     <content type="html"><![CDATA[<p>折腾 Octopress 的时候安装了 Git, 之前还安装过 GitHub for Mac, 然后创建 SSH Keys 的时候就发现 <code>~/.ssh/</code>目录下面有
 <code>

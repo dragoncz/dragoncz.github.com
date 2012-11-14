@@ -4,7 +4,7 @@
   <title><![CDATA[Simple]]></title>
   <link href="http://dragoncz.github.com/atom.xml" rel="self"/>
   <link href="http://dragoncz.github.com/"/>
-  <updated>2012-05-08T03:20:04+01:00</updated>
+  <updated>2012-11-14T16:16:12+08:00</updated>
   <id>http://dragoncz.github.com/</id>
   <author>
     <name><![CDATA[Zhen Cao]]></name>
@@ -14,9 +14,27 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Python for Humans]]></title>
+    <link href="http://dragoncz.github.com/blog/2012/11/14/python-for-humans/"/>
+    <updated>2012-11-14T16:09:00+08:00</updated>
+    <id>http://dragoncz.github.com/blog/2012/11/14/python-for-humans</id>
+    <content type="html"><![CDATA[<p>I like this quote:</p>
+
+<blockquote><p>&#8220;There should be one -and preferably only one -obvious way to do it.&#8221;</p></blockquote>
+
+<p>via:</p>
+
+<script async class="speakerdeck-embed" data-id="4f24d3a79a6510001f008836" data-ratio="1.33333333333333" src="http://dragoncz.github.com//speakerdeck.com/assets/embed.js"></script>
+
+
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[nvALT]]></title>
     <link href="http://dragoncz.github.com/blog/2012/05/06/nvalt/"/>
-    <updated>2012-05-06T18:53:00+01:00</updated>
+    <updated>2012-05-06T18:53:00+08:00</updated>
     <id>http://dragoncz.github.com/blog/2012/05/06/nvalt</id>
     <content type="html"><![CDATA[<p><a href="http://brettterpstra.com/project/nvalt/" title="nvALT 官网">nvALT</a> 和 <a href="http://evernote.com/" title="Evernote 官网">Evernote</a> 类似，是笔记类软件，数字笔记的好处就是，代替了传统的笔记本和笔，同时也方便检索和管理。想想平时遇到这些时候：</p>
 
@@ -87,7 +105,7 @@ nvALT 的每个笔记都支持 Tag，方便管理。</p>
   <entry>
     <title type="html"><![CDATA[Web and Layers]]></title>
     <link href="http://dragoncz.github.com/blog/2012/05/06/web-and-layers/"/>
-    <updated>2012-05-06T17:58:00+01:00</updated>
+    <updated>2012-05-06T17:58:00+08:00</updated>
     <id>http://dragoncz.github.com/blog/2012/05/06/web-and-layers</id>
     <content type="html"><![CDATA[<p>最近看到几篇文章，<a href="http://www.36kr.com/p/106076.html" title="Facebook 的开放世界">一篇提到</a> Facebook 正“试图成为所有应用的社交层，就像 Google 试图成为 Google 所有产品的社交层一样”。还有一篇提到，<a href="http://www.technologyreview.com/web/39653/" title="Dropbox: Founder Drew Houston Simplifies the Cloud">Dropbox 老大说</a>，Dropbox 不是一个简单的网盘，它的最终目标应该是成为“互联网的文件系统”，换句话说，Dropbox 想成为所有互联网应用的 <code>存储层</code>。</p>
 
@@ -116,7 +134,7 @@ nvALT 的每个笔记都支持 Tag，方便管理。</p>
   <entry>
     <title type="html"><![CDATA[跨专业学习]]></title>
     <link href="http://dragoncz.github.com/blog/2012/04/18/kua-zhuan-ye-xue-xi/"/>
-    <updated>2012-04-18T02:03:00+01:00</updated>
+    <updated>2012-04-18T02:03:00+08:00</updated>
     <id>http://dragoncz.github.com/blog/2012/04/18/kua-zhuan-ye-xue-xi</id>
     <content type="html"><![CDATA[<p>最近一直在从头学习<code>HTML</code>, 大脑很久没这么长时间运转了. 今天先是看了N久代码, 然后 <strong>Happy</strong> 的去给水二看论文资料. 话说环境学真是抽象啊, 好多词看不懂不说, 他们老师的 PPT 真是跳跃性的, 上一页和下一页恍如隔世&#8230;</p>
 
@@ -146,7 +164,7 @@ nvALT 的每个笔记都支持 Tag，方便管理。</p>
   <entry>
     <title type="html"><![CDATA[GitHub for Mac and SSH keys]]></title>
     <link href="http://dragoncz.github.com/blog/2012/04/12/github-for-mac-and-ssh-keys/"/>
-    <updated>2012-04-12T03:13:00+01:00</updated>
+    <updated>2012-04-12T03:13:00+08:00</updated>
     <id>http://dragoncz.github.com/blog/2012/04/12/github-for-mac-and-ssh-keys</id>
     <content type="html"><![CDATA[<p>折腾 Octopress 的时候安装了 Git, 之前还安装过 GitHub for Mac, 然后创建 SSH Keys 的时候就发现 <code>~/.ssh/</code>目录下面有</p>
 
@@ -205,7 +223,7 @@ nvALT 的每个笔记都支持 Tag，方便管理。</p>
   <entry>
     <title type="html"><![CDATA[Scroll Reverser]]></title>
     <link href="http://dragoncz.github.com/blog/2012/04/11/scroll-reverser/"/>
-    <updated>2012-04-11T11:40:00+01:00</updated>
+    <updated>2012-04-11T11:40:00+08:00</updated>
     <id>http://dragoncz.github.com/blog/2012/04/11/scroll-reverser</id>
     <content type="html"><![CDATA[<p>OS X Lion 里最大的改动之一就是触摸板的滚动方向了，经过一段时间的适应，其实还是很符合触摸习惯，尤其是使用过各种 iDevice 之后。可是触摸板有时候还是代替不了鼠标，当我们必须用鼠标的时候，滚轮的反方向滚动会让你抓狂的。当然，通过一些设置，可以把新的滚动方式关掉，可是用回触摸板的时候又很不适应。</p>
 
@@ -253,7 +271,7 @@ nvALT 的每个笔记都支持 Tag，方便管理。</p>
   <entry>
     <title type="html"><![CDATA[这是我的新博客]]></title>
     <link href="http://dragoncz.github.com/blog/2012/04/10/zhe-shi-wo-de-xin-bo-ke/"/>
-    <updated>2012-04-10T20:10:00+01:00</updated>
+    <updated>2012-04-10T20:10:00+08:00</updated>
     <id>http://dragoncz.github.com/blog/2012/04/10/zhe-shi-wo-de-xin-bo-ke</id>
     <content type="html"><![CDATA[<p>终于搞定了 <a href="http://octopress.org" title="Octopress">Octopress</a> 和 <a href="http://github.com" title="github">Github</a>.</p>
 

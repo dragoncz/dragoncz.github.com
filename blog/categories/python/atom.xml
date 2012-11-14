@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: python | Simple]]></title>
+  <link href="http://dragoncz.github.com/blog/categories/python/atom.xml" rel="self"/>
+  <link href="http://dragoncz.github.com/"/>
+  <updated>2012-11-14T16:16:12+08:00</updated>
+  <id>http://dragoncz.github.com/</id>
+  <author>
+    <name><![CDATA[Zhen Cao]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Python for Humans]]></title>
+    <link href="http://dragoncz.github.com/blog/2012/11/14/python-for-humans/"/>
+    <updated>2012-11-14T16:09:00+08:00</updated>
+    <id>http://dragoncz.github.com/blog/2012/11/14/python-for-humans</id>
+    <content type="html"><![CDATA[<p>I like this quote:</p>
+
+<blockquote><p>"There should be one -and preferably only one -obvious way to do it."</p></blockquote>
+
+<p>via:</p>
+
+<script async class="speakerdeck-embed" data-id="4f24d3a79a6510001f008836" data-ratio="1.33333333333333" src="http://dragoncz.github.com//speakerdeck.com/assets/embed.js"></script>
+
+
+
+]]></content>
+  </entry>
+  
+</feed>
