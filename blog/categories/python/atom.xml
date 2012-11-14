@@ -4,7 +4,7 @@
   <title><![CDATA[Category: python | Simple]]></title>
   <link href="http://dragoncz.github.com/blog/categories/python/atom.xml" rel="self"/>
   <link href="http://dragoncz.github.com/"/>
-  <updated>2012-11-14T16:36:35+08:00</updated>
+  <updated>2012-11-14T21:34:31+08:00</updated>
   <id>http://dragoncz.github.com/</id>
   <author>
     <name><![CDATA[Zhen Cao]]></name>
@@ -21,6 +21,11 @@
     <content type="html"><![CDATA[<p>I like this quote:</p>
 
 <blockquote><p>"There should be one -and preferably only one -obvious way to do it."</p></blockquote>
+
+<!-- more -->
+
+
+<p>Original slide:</p>
 
 <script async class="speakerdeck-embed" data-id="4f24d3a79a6510001f008836" data-ratio="1.33333333333333" src="http://dragoncz.github.com//speakerdeck.com/assets/embed.js"></script>
 
