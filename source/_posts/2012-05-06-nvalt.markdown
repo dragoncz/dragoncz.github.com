@@ -1,0 +1,66 @@
+---
+layout: post
+title: "nvALT"
+date: 2012-05-06 18:53
+comments: true
+categories: apps osx
+---
+
+[nvALT](http://brettterpstra.com/project/nvalt/ "nvALT 官网") 和 [Evernote](http://evernote.com/ "Evernote 官网") 类似，是笔记类软件，数字笔记的好处就是，代替了传统的笔记本和笔，同时也方便检索和管理。想想平时遇到这些时候：
+
+* 看一篇文章，激发了你的一些思考，但都是片段式的，很零散
+* 使用一些软件或者设备的时候，有了一些产品灵感，或者想法，这些宝贵的脑电波稍纵即逝
+* 看到一个好段子，想记录下来
+
+一键呼出你的 nvALT，键盘飞起吧。
+
+#Notational Velocity
+
+"nvALT" 中的 "nv" 就是指 [Notational Velocity][], 相比其他同类软件，它的精髓就是 ```简单```，```键盘操作```，尤其相对于 Evernote 的复杂和臃肿。界面干净的除了关闭最小化什么的按钮外，一个多余的按钮都没有。如果你也像我一样喜欢键盘的高效率和简单高效的界面的话，那这个就是为你设计的笔记软件。当然，一台 Mac 是必须的：）
+
+##nvALT
+
+[nvALT][] 是 [Elastic Threads](http://elasticthreads.tumblr.com/) (David Halter) 和 [Brett Terpstra](http://brettterpstra.com/) 开发的 Notational Velocity 的一个 Fork，增加了很多功能，最吸引人的就是支持 [markdown][]，由于现在我基本所有的文字编辑都采用 markdown 格式了，把笔记也统一感觉很协调，另外也方便直接复制粘帖不是：）
+
+<!-- more -->
+#界面
+
+![nvALT UI](http://f.cl.ly/items/0U0h362p3q3s3W34070T/Screen%20Shot%202012-05-06%20at%2018.51.58.png "nvALT UI")
+
+#使用
+
+##添加，编辑笔记
+![使用流程](http://notational.net/images/notational-diagram.png "使用流程")
+
+使用起来及其简单，搜索框类似 Chrome 的地址栏，如果根据你输入的可以找到已有条目，那么就编辑已有条目；如果没找到匹配的，那么就按照当前关键词新建一个条目。就这么简单。当然，这个搜索框是全局搜索的，你条目里面的内容也会被检索。
+nvALT 的每个笔记都支持 Tag，方便管理。
+
+##保存和备份
+
+nvALT 默认采用单个数据库文件来保存笔记的，还提供单独文本文件，HTML 格式文件等的选项。需要注意的是，只有在默认采用数据库文件存储的时候，笔记才是被加密的，否则都是明文存储。但是单个文件存储也有它自己的优点，下面会提到。
+编辑的时候不需要手动保存，它是实时自动保存的，永远不用担心丢失数据。另外它的设置和笔记保存路径可以更改，我们可以把它放在 Dropbox 上，实时备份。方法就是：
+
+	"Cmd + ," 打开设置 -> 'Notes' 标签 -> 'Read notes from folder:' 选择你的 Dropbox 文件夹
+
+##Simplenote
+
+nvALT 支持和 [Simplenote][] 服务同步，而 Simplenote 拥有网页客户端，Windows 客户端和 iOS 客户端，你可以在它的 [download页面](http://simplenoteapp.com/downloads/ "simplenote apps") 上看到，它还有各种 nvALT 之外的软件，插件支持，所以可以在所有设备上访问到你的笔记，只要有网。Simplenote 有免费和收费两种，一般免费的就够用了，收费的只是去掉广告和很少的功能增强，可是要按年付费，虽然不贵，但是不划算。
+
+#技巧
+
+* ```Shift + Cmd + E``` 可以打开外部文本编辑器编辑当前目录，这样你就可以使用自己喜爱的 markdown 编辑器编辑你的笔记了，比如 [Sublime Text 2](sublimetext.com/2 "Sublime Text 2") (跨平台) 和 [Mou](http://mouapp.com/ "mouapp") (Mac)
+注意，这个只有在设置成保存单独文本文件的时候才可以设置，否则只能使用系统自带的 TextEdit 打开。
+* ```Ctrl + Cmd + P``` 可以打开 markdown 预览。
+* 可以设置全局热键来一键呼出 nvALT
+* 在设置为按单个文本文件保存笔记的时候，可以用 Spotlight 或者 Alfred 之类的程序搜索到笔记，换句话说，和系统有更好的整合度。
+
+想法和点子不知什么时候就忽然闪现，如果不记录下来，它也会很快被忘记，所以，找到一个合适的笔记软件，养成一个记录的习惯，积累下来，肯定是个财富。
+
+[下载 nvALT 2.2 beta](http://abyss.designheresy.com/nvaltb/files/nvalt2.2b94.zip "nvALT 2.2b94")
+
+[nvALT 作者网站](http://brettterpstra.com/project/nvalt/ "Brett Terpstra")
+
+[Notational Velocity]: http://notational.net/ "Notational Velocity Official Website"
+[Simplenote]: http://simplenoteapp.com/ "Simplenote Official Website"
+[markdown]: http://daringfireball.net/projects/markdown/ "markdown Official Website"
+[nvALT]: http://brettterpstra.com/project/nvalt/ "Brett Terpstra"

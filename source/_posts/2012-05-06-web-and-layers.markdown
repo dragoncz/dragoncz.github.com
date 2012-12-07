@@ -1,0 +1,28 @@
+---
+layout: post
+title: "Web and Layers"
+date: 2012-05-06 17:58
+comments: true
+categories: thoughts web
+---
+
+最近看到几篇文章，[一篇提到][facebook] Facebook 正“试图成为所有应用的社交层，就像 Google 试图成为 Google 所有产品的社交层一样”。还有一篇提到，[Dropbox 老大说][dropbox]，Dropbox 不是一个简单的网盘，它的最终目标应该是成为“互联网的文件系统”，换句话说，Dropbox 想成为所有互联网应用的 ```存储层```。
+
+>"Over the next years you're going to see that the value that comes out of Dropbox is more and more the stuff that other people build. Whether it's your TV or your camera or the apps on your phone, we want to make it easy for anything that consumes or creates data to be able to plug in. What we're really trying to build is the Internet's file system." [Drew Houston][dropbox]
+
+<!-- more -->
+
+我不禁想，以后的互联网应用或者说服务真的可以层次化，就像层次化的互联网七层协议，模块化的编程语言，正如这些复杂工程背后的哲学一样，互联网本身也可以模块化，层次化。
+
+能够想到的几点好处：
+
+* 当开发应用的时候，你可以专注与你要提供的那部分功能，当你想提供社交功能和读存数据的时候，可以用社交层和存储层提供的功能。
+* 那么你开发的这个应用可能就算做 ```应用层```，就像网络协议的 Internet 服务，Email 服务归属于应用层一样。
+* 每一层都有自己的功能和责任，可以和上层，下层交互。
+* 每一层都可以释放一些不必要的顾虑，不必花费经历去研究其他层功能的细节，直接使用规范化的接口，比如 ```API```。
+* 互联网应用的开发效率带来提高
+
+其实想起来，这也算是各种 API 的进化概念，如果有一个整体的框架，或者说体系来约束互联网应用，肯定可以带来好处，说不定还能解决让人苦恼的客户需求问题。
+
+[facebook]: http://www.36kr.com/p/106076.html "Facebook 的开放世界"
+[dropbox]: http://www.technologyreview.com/web/39653/ "Dropbox: Founder Drew Houston Simplifies the Cloud"
