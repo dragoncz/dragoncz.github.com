@@ -4,7 +4,7 @@
   <title><![CDATA[Simple]]></title>
   <link href="http://dragoncz.github.com/atom.xml" rel="self"/>
   <link href="http://dragoncz.github.com/"/>
-  <updated>2012-12-10T22:45:50+08:00</updated>
+  <updated>2012-12-10T22:53:48+08:00</updated>
   <id>http://dragoncz.github.com/</id>
   <author>
     <name><![CDATA[Zhen Cao]]></name>
@@ -18,9 +18,7 @@
     <link href="http://dragoncz.github.com/blog/2012/12/10/enterprise/"/>
     <updated>2012-12-10T17:29:00+08:00</updated>
     <id>http://dragoncz.github.com/blog/2012/12/10/enterprise</id>
-    <content type="html"><![CDATA[<h2>USS Enterprise</h2>
-
-<p><code>Enterprise</code>, 进取号。也就是 <a href="http://en.wikipedia.org/wiki/Star_Trek" title="Star Trek Wikipedia"><code>Star Trek</code></a> 「星际迷航」里的 <a href="http://en.wikipedia.org/wiki/Starship_Enterprise" title="Starship: Enterprise">USS Enterprise</a>.</p>
+    <content type="html"><![CDATA[<p><code>Enterprise</code>, 进取号。也就是 <a href="http://en.wikipedia.org/wiki/Star_Trek" title="Star Trek Wikipedia"><code>Star Trek</code></a> 「星际迷航」里的 <a href="http://en.wikipedia.org/wiki/Starship_Enterprise" title="Starship: Enterprise">USS Enterprise</a>.</p>
 
 <p><img src="http://upload.wikimedia.org/wikipedia/en/1/1a/USS_Enterprise_%28NCC-1701%29%2C_ENT1231.jpg" title="USS Enterprise (NCC-1701)" alt="Starship Enterprise" /></p>
 
