@@ -5,7 +5,7 @@
 url: http://dragoncz.github.com
 title: Simple
 subtitle: A place to record simple life.
-author: Zhen Cao
+author: dragoncz
 simple_search: http://google.com/search
 description: "A personal blog, simple and clean."
 
@@ -100,3 +100,6 @@ google_analytics_tracking_id: UA-24265953-4
 
 # Facebook Like
 facebook_like: true
+
+# Tapirgo token
+tapir_token: 50fa46f83f61b0411e00008f
